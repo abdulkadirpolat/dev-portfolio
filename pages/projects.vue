@@ -1,7 +1,8 @@
 <template>
   <div class=" mx-auto max-w-4xl" id="container">
     <div class="  flex flex-col   w-full      m-auto  p-3">
-      <Header></Header>
+      <app-header></app-header>
+      
       <footer
         class="   p-5   rounded-2xl  shadow-md   flex-row flex justify-center items-center mt-7"
       >
@@ -19,7 +20,7 @@ export default {
   data() {
     return {
       made: "made with",
-      link: "https://github.com/abdulkadirpolat/developer-portfolio"
+      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net"
     };
   }
 };

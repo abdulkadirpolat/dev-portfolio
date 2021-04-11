@@ -1,10 +1,10 @@
 <template>
   <div class=" mx-auto max-w-4xl" id="container">
     <div class="  flex flex-col   w-full      m-auto  p-3">
-      <Header></Header>
-      <Profile></Profile>
-      <Frontent></Frontent>
-      <DevTools></DevTools>
+      <app-header></app-header>
+      <profile></profile>
+      <frontent></frontent>
+      <dev-tools></dev-tools>
       <footer
         class="select-none   p-5   rounded-2xl  shadow-md   flex-row flex justify-center items-center mt-7"
       >
@@ -19,11 +19,13 @@
 </template>
 
 <script>
+
 export default {
-  data() {
+
+  data(){
     return {
       made: "made with",
-      link: "https://github.com/abdulkadirpolat/developer-portfolio"
+      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net"
     };
   }
 };

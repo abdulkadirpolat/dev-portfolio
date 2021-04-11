@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       made: "made with",
-      link: "https://github.com/abdulkadirpolat/developer-portfolio"
+      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net"
     };
   }
 };
