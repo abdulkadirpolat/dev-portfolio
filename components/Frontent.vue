@@ -4,7 +4,8 @@
       class=" absolute -top-4 left-14 bg-gray-100 p-1 px-2 rounded-xl shadow-lg "
       >{{ title }}</span
     >
-    <div v-for="front in objects" class="tools" :key="front">
+
+    <div v-for="front in allData.frontend" class="tools" :key="front">
       <i
         :key="value"
         class="flex flex-col justify-center items-center h-full"
@@ -26,15 +27,19 @@ export default {
     return {
       title: "Front-end Tools",
       icons: "fab",
-      objects: [
-        { js: "text-yellow-300" },
-        { vuejs: "text-green-500" },
-        { html5: "text-red-500" },
-        { css3: "text-blue-500" },
-        { sass: "text-pink-500" },
-        { bootstrap: "text-purple-800" }
-      ]
+      // objects: [
+      //   { js: "text-yellow-300" },
+      //   { vuejs: "text-green-500" },
+      //   { html5: "text-red-500" },
+      //   { css3: "text-blue-500" },
+      //   { sass: "text-pink-500" },
+      //   { bootstrap: "text-purple-800" }
+      // ]
+      allData: []
     };
+  },
+  async fetch() {
+    this.allData = await fetch("/data.json").then(res => res.json());
   }
 };
 </script>

@@ -25,7 +25,7 @@
 export default {
   data() {
     return {
-      title: "HAPPY DEV",
+      title: "ABDULKADİR POLAT",
       objects: [
         { github: "https://github.com" },
         {

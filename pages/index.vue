@@ -1,5 +1,5 @@
 <template>
-  <div v-if="loading" class=" mx-auto max-w-4xl" id="container">
+  <div class=" mx-auto max-w-4xl" id="container">
     <div class="  flex flex-col   w-full      m-auto  p-3">
       <app-header></app-header>
       <profile></profile>
@@ -24,29 +24,8 @@ export default {
   data() {
     return {
       made: "made with",
-      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net",
-      loading: false
+      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net"
     };
-  },
-  methods: {
-    start() {
-      this.loading = true;
-    },
-    finish() {
-      this.loading = false;
-    }
-  },
-  mounted() {
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start();
-      setTimeout(() => this.$nuxt.$loading.this.finish(), 500);
-    });
-  },
-
-  loadingIndicator: {
-    name: "circle",
-    color: "#3B8070",
-    background: "green"
   }
 };
 </script>

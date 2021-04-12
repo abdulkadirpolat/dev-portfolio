@@ -2,7 +2,7 @@
   <div class=" mx-auto max-w-4xl" id="container">
     <div class="  flex flex-col   w-full      m-auto  p-3">
       <app-header></app-header>
-      
+      <app-projects></app-projects>
       <footer
         class="   p-5   rounded-2xl  shadow-md   flex-row flex justify-center items-center mt-7"
       >

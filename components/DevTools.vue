@@ -4,7 +4,7 @@
       class="absolute -top-4 left-14 bg-gray-100 p-1 rounded-xl shadow-lg px-2 "
       >{{ title }}</span
     >
-    <div v-for="front in objects" class="tools" :key="front">
+    <div v-for="front in allData.devtools" class="tools" :key="front">
       <i
         :key="value"
         class="flex flex-col justify-center items-center h-full"
@@ -27,13 +27,11 @@ export default {
     return {
       title: "Dev Tools",
       icons: "fab",
-      objects: [
-        { github: "text-black" },
-        { figma: "text-purple-600" },
-        { chrome: "text-red-600" }
-        // { vscode: "blue" },
-      ]
+      allData: []
     };
+  },
+  async fetch() {
+    this.allData = await fetch("/data.json").then(res => res.json());
   }
 };
 </script>

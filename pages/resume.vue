@@ -1,6 +1,6 @@
 <template>
   <div class=" mx-auto max-w-4xl">
-    <Header></Header>
+    <app-header></app-header>
     <footer
       class="   p-5   rounded-2xl  shadow-md   flex-row flex justify-center items-center mt-7"
     >
