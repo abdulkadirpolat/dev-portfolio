@@ -9,7 +9,7 @@
     />
     <div class=" md:text-center  md:pt-0 font-light ">
       <p class="text-lg   ">Hi, my name is</p>
-      <p class="text-4xl font-semibold ">Happy Dev</p>
+      <p class="text-4xl font-semibold ">Abdulkadir Polat</p>
       <p class="text-lg  my-7  md:m-3  md:mx-0 md:mb-8 ">
         “I am a Sofware Developer Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Quibusdam, dolores assumenda. Sit, cum dignissimos
