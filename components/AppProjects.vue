@@ -1,16 +1,22 @@
 <template>
   <div class="project">
-    <div class="h-60 md:h-96" v-for="all in allData.projects" :key="all">
+    <div class="h-60 md:h-96 " v-for="all in allData.projects" :key="all">
       <div
-        class="flex flex-col justify-between  h-full bg-gray-200 rounded-2xl overflow-hidden text-center"
+        class="flex flex-col justify-between  h-full  rounded-2xl overflow-hidden text-center"
       >
-        <div class="w-full h-44 md:h-64 overflow-hidden">
-          <img loading="lazy" :src="all.image" class="img" />
+        <div
+          class="w-full h-52 md:h-64 sm:h-64   overflow-hidden     rounded-2xl"
+        >
+          <img
+            loading="lazy"
+            :src="all.image"
+            class="p-2 rounded-3xl max-w-full min-h-full  h-auto align-middle"
+          />
         </div>
-        <p>{{ all.name }}</p>
+        <p class="font-normal">{{ all.name }}</p>
         <div>
           <span
-            class="inline text-white rounded-2xl bg-gray-800  mr-2 px-4 "
+            class="inline text-white rounded-2xl bg-gray-700  mr-2 px-4 "
             v-for="together in all.tech"
             :key="together"
           >
@@ -40,15 +46,16 @@ export default {
 <style lang="postcss" scoped>
 .project {
   background-color: #f8f9fa;
-  @apply select-none font-light relative  rounded-2xl shadow-md mt-7 p-2   grid   grid-cols-3 gap-4 md:grid-cols-2  sm:grid-cols-1;
+  @apply select-none font-light relative  rounded-2xl shadow-md mt-7 p-2   grid   grid-cols-3 gap-4 md:grid-cols-2  sm:grid-cols-1 ;
 }
 .btn {
-  @apply bg-gray-400 rounded-2xl px-5 py-2 mr-2;
+  background: #e1e5f2;
+  @apply rounded-2xl px-5 py-2 mr-2 hover:bg-purple-800 hover:text-white;
 }
-.img{
+/* .img{
   background: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover ;
-}
+} */
 </style>
