@@ -2,7 +2,7 @@
   <div class="header">
     <p
       @click="back"
-      class="cursor-pointer md:hidden  w-full  text-2xl hover:text-purple-800 text-center "
+      class="cursor-pointer md:hidden w-full text-2xl hover:text-purple-800 text-center "
     >
       {{ title }}
     </p>
@@ -49,20 +49,20 @@ export default {
 <style lang="postcss" scoped>
 .links {
   background: #e1e5f2;
-  @apply cursor-pointer 2sm:text-xs md:w-40 sm:w-52 rounded-3xl  py-2 px-5 w-24 mx-2   text-center hover:bg-purple-800 hover:text-white;
+  @apply cursor-pointer 2sm:text-xs md:w-40 sm:w-52 rounded-3xl py-2 px-5 w-24 mx-2 text-center hover:bg-purple-800 hover:text-white;
 }
 
 .header {
   background-color: #f8f9fa;
   color: #2a2b2c;
-  @apply select-none  z-10  sticky top-0  rounded-2xl shadow-md h-16 flex-row flex items-center;
+  @apply select-none z-10 sticky top-0 rounded-2xl shadow-md h-16 flex-row flex items-center;
 }
 
 .headerLeft {
-  @apply w-1/2   flex justify-evenly md:w-full sm:w-full;
+  @apply w-1/2 flex justify-evenly md:w-full sm:w-full;
 }
 .headerRight {
-  @apply w-1/4  flex justify-evenly sm:hidden text-2xl;
+  @apply w-1/4 flex justify-evenly sm:hidden text-2xl;
 }
 .headerRight :last-child {
 }

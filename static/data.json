@@ -1,7 +1,7 @@
 {
   "profile": {
     "fullname": "Abdulkadir Polat",
-    "about": "I am a Sofware Developer and student currently living in İstanbul. My interests range from coffee to swimming. I am also interested in movies and photography."
+    "about": "I am a software developer and currently live in Istanbul. My interests range from coffee to swimming."
   },
 
   "frontend": [
@@ -38,42 +38,42 @@
   ],
   "projects": [
     {
-      "name": "developer-portfolio",
-      "image": "developer-portfolio.jpg",
+      "name": "developer portfolio",
+      "image": "developer portfolio.jpg",
       "live": "https://abdulkadir-polat-abdulkadirpolat.vercel.app/",
       "source": "https://github.com/abdulkadirpolat/developer-portfolio",
       "tech": ["tailwind", "nuxtjs"]
     },
     {
-      "name": "Web-and-visual-designer-portfolio",
-      "image": "web-portfolio.jpg",
+      "name": "Web and visual designer portfolio",
+      "image": "web portfolio.jpg",
       "live": "https://web-and-visual-designer-portfolio-abdulkadirpolat.vercel.app/",
       "source": "https://github.com/abdulkadirpolat/Web-and-visual-designer-portfolio",
       "tech": ["scss", "js"]
     },
     {
-      "name": "Resim-yukleniyor",
+      "name": "Resim yukleniyor",
       "image": "loading.jpg",
       "live": "https://resim-yukleniyor-abdulkadirpolat.vercel.app/",
       "source": "https://github.com/abdulkadirpolat/Resim-yukleniyor",
       "tech": ["css", "js"]
     },
     {
-      "name": "Klavye-event-projesi",
+      "name": "Klavye event projesi",
       "image": "keyboard.jpg",
       "live": "https://keyboard-event-abdulkadirpolat.vercel.app/",
       "source": "https://github.com/abdulkadirpolat/Klavye-event-projesi",
       "tech": ["css", "js"]
     },
     {
-      "name": "Step-Progress-Bar",
+      "name": "Step Progress Bar",
       "image": "steps.jpg",
       "live": "https://step-progress-bar-abdulkadirpolat.vercel.app/",
       "source": "https://github.com/abdulkadirpolat/Step-Progress-Bar",
       "tech": ["css", "js"]
     },
     {
-      "name": "Image-gallery",
+      "name": "Image gallery",
       "image": "gallery.jpg",
       "live": "https://image-gallery-abdulkadirpolat.vercel.app",
       "source": "https://github.com/abdulkadirpolat/Image-gallery",
@@ -87,22 +87,22 @@
       "tech": ["css", "js"]
     },
     {
-      "name": "Drum-Kit",
-      "image": "drum-kit.jpg",
+      "name": "Drum Kit",
+      "image": "drum kit.jpg",
       "live": "https://drum-kit-git-main-abdulkadirpolat.vercel.app",
       "source": "https://github.com/abdulkadirpolat/Drum-Kit",
       "tech": ["css", "js"]
     },
     {
-      "name": "BMI-Calculator",
+      "name": "BMI Calculator",
       "image": "bmi.jpg",
       "live": "https://bmi-calculator-git-main-abdulkadirpolat.vercel.app",
       "source": "https://github.com/abdulkadirpolat/BMI-Calculator",
       "tech": ["css", "js"]
     },
     {
-      "name": "todo-list",
-      "image": "todo-list.jpg",
+      "name": "todo list",
+      "image": "todo list.jpg",
       "live": "https://todo-list-abdulkadirpolat.vercel.app",
       "source": "https://github.com/abdulkadirpolat/todo-list",
       "tech": ["css", "js"]

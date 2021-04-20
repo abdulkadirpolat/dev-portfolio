@@ -1,19 +1,23 @@
 <template>
   <figure>
+    <span
+      class=" absolute -top-4 left-14 bg-gray-100 p-1 px-2 rounded-xl shadow-lg "
+      >About Me</span
+    >
     <img
-      class=" transition-transform  duration-300 transform hover:scale-105 shadow-md w-52 h-52 md:w-48 md:h-auto md:rounded-none rounded-full md:mx-auto  mr-8"
+      class="transition-transform duration-300 transform hover:scale-105 shadow-md flex-shrink-0 w-56 h-56 md:w-48 md:h-auto md:rounded-none rounded-full md:mx-auto mr-8 object-cover"
       src="/portfolio.png"
       alt=""
       width="384"
       height="512"
     />
-    <div class=" md:text-center  md:pt-0 font-light ">
-      <p class="text-lg   ">Hi, my name is</p>
+    <div class=" md:text-center md:pt-0 font-light ">
+      <p class="text-lg">Hi, my name is</p>
       <p class="text-4xl font-semibold " v-for="full in allData" :key="full">
         {{ full.fullname }}
       </p>
       <p
-        class="text-lg  my-7  md:m-3  md:mx-0 md:mb-8 "
+        class="text-lg my-7 md:m-3 md:mx-0 md:mb-8 "
         v-for="regarding in allData"
         :key="regarding"
       >
@@ -30,7 +34,7 @@ export default {
   data() {
     return {
       allData: [],
-      link:'https://www.linkedin.com/in/abdulkadir-polat-1b282b1b7'
+      link: "https://www.linkedin.com/in/abdulkadir-polat-1b282b1b7"
     };
   },
   async fetch() {
@@ -41,10 +45,10 @@ export default {
 <style lang="postcss" scoped>
 figure {
   background-color: #f8f9fa;
-  @apply md:block p-8   rounded-2xl  shadow-md   flex-row flex items-center mt-7;
+  @apply md:block p-8 rounded-2xl shadow-md flex-row flex items-center mt-7 relative font-light;
 }
 .links {
   background-color: #e1e5f2;
-  @apply 2sm:text-xs rounded-3xl font-light  py-2 px-5 text-center hover:bg-purple-800 hover:text-white;
+  @apply 2sm:text-xs rounded-3xl font-light py-2 px-5 text-center hover:bg-purple-800 hover:text-white;
 }
 </style>

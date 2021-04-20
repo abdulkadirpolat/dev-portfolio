@@ -27,14 +27,6 @@ export default {
     return {
       title: "Front-end Tools",
       icons: "fab",
-      // objects: [
-      //   { js: "text-yellow-300" },
-      //   { vuejs: "text-green-500" },
-      //   { html5: "text-red-500" },
-      //   { css3: "text-blue-500" },
-      //   { sass: "text-pink-500" },
-      //   { bootstrap: "text-purple-800" }
-      // ]
       allData: []
     };
   },
@@ -46,10 +38,10 @@ export default {
 <style lang="postcss" scoped>
 .frontent {
   background-color: #f8f9fa;
-  @apply select-none font-light relative  rounded-2xl shadow-md mt-7 p-10   grid grid-rows-2 grid-cols-4 gap-4   md:grid-cols-3  sm:grid-cols-2 2sm:grid-cols-1;
+  @apply select-none font-light relative rounded-2xl shadow-md mt-7 p-10 grid grid-rows-2 grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 2sm:grid-cols-1;
 }
 .tools {
   background-color: #e1e5f2;
-  @apply transform   hover:scale-105 transition-all duration-300 rounded-2xl h-28;
+  @apply transform hover:scale-105 transition-all duration-300 rounded-2xl h-28;
 }
 </style>

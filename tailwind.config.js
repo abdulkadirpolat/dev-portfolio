@@ -8,7 +8,12 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      height: {
+        "112": "28rem"
+      }
+    },
+
     screens: {
       "2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
@@ -18,6 +23,7 @@ module.exports = {
 
       lg: { max: "1023px" },
       // => @media (max-width: 1023px) { ... }
+      "2md": { max: "900px" },
 
       md: { max: "800px" },
       // => @media (max-width: 767px) { ... }

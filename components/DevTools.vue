@@ -38,10 +38,10 @@ export default {
 <style lang="postcss" scoped>
 .devtool {
   background-color: #f8f9fa;
-  @apply select-none font-light relative  rounded-2xl shadow-md mt-7 p-10   grid grid-rows-1 grid-cols-4 gap-4 md:grid-cols-3  sm:grid-cols-2 2sm:grid-cols-1;
+  @apply select-none font-light relative  rounded-2xl shadow-md mt-7 p-10 grid grid-rows-1 grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 2sm:grid-cols-1;
 }
 .tools {
   background-color: #e1e5f2;
-  @apply transform   hover:scale-105 transition-all duration-300 rounded-2xl h-28;
+  @apply transform hover:scale-105 transition-all duration-300 rounded-2xl h-28;
 }
 </style>
