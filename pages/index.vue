@@ -1,5 +1,5 @@
 <template>
-  <div id="container">
+  <div id="container" >
     <div class="mx-auto max-w-5xl ">
       <div class="flex flex-col w-full m-auto p-3">
         <app-header></app-header>
@@ -12,7 +12,7 @@
         >
           <a class="text-lg font-light" :href="link" target="_blank"
             ><span>{{ made }}</span>
-            <font-awesome-icon class="text-red-800" :icon="['fas','heart']" />
+            <font-awesome-icon class="text-red-800" :icon="['fas', 'heart']" />
             <span>{{ made }} </span></a
           >
         </footer>
@@ -26,9 +26,25 @@ export default {
   data() {
     return {
       made: "made with",
-      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net"
+      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net",
+      // loading: false
     };
-  }
+  },
+  // mounted() {
+  //   this.$nextTick(() => {
+  //     this.$nuxt.$loading.start();
+
+  //     setTimeout(() => this.$nuxt.$loading.finish(), 500);
+  //   });
+  // },
+  // methods: {
+  //   start() {
+  //     this.loading = false;
+  //   },
+  //   finish() {
+  //     this.loading = true;
+  //   }
+  // }
 };
 </script>
 

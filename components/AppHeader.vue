@@ -12,7 +12,7 @@
       <nuxt-link class=" links" to="/projects">{{ button[1] }}</nuxt-link>
     </div>
     <div v-for="object in objects" class="headerRight" :key="object">
-      <a v-for="(key, value) in object" :href="key" :key="key">
+      <a v-for="(key, value) in object" :href="key" :key="key" target="_blank">
         <font-awesome-icon
           class="hover:text-purple-800"
           :icon="[icons, value]"
