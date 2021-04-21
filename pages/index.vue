@@ -1,8 +1,9 @@
 <template>
-  <div id="container" >
+  <div id="container" class="min-h-screen">
     <div class="mx-auto max-w-5xl ">
       <div class="flex flex-col w-full m-auto p-3">
         <app-header></app-header>
+
         <profile></profile>
         <frontent></frontent>
         <dev-tools></dev-tools>
@@ -26,25 +27,9 @@ export default {
   data() {
     return {
       made: "made with",
-      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net",
-      // loading: false
+      link: "https://github.com/abdulkadirpolat/abdulkadirpolat.net"
     };
-  },
-  // mounted() {
-  //   this.$nextTick(() => {
-  //     this.$nuxt.$loading.start();
-
-  //     setTimeout(() => this.$nuxt.$loading.finish(), 500);
-  //   });
-  // },
-  // methods: {
-  //   start() {
-  //     this.loading = false;
-  //   },
-  //   finish() {
-  //     this.loading = true;
-  //   }
-  // }
+  }
 };
 </script>
 
